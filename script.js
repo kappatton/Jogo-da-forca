@@ -99,7 +99,7 @@ for(i=0; i < conjunto_palavras.length; i++){
 
 
 //Selecionando palavra aleatória
-var palavra = 'gravação'//conjunto_palavras[Math.floor(Math.random()* conjunto_palavras.length)]
+var palavra = conjunto_palavras[Math.floor(Math.random()* conjunto_palavras.length)]
 var quantidade_letras = palavra.length
 
 
