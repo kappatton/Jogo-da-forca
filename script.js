@@ -164,6 +164,7 @@ for(var i = 0; i<quantidade_letras; i++){
 
 //Pegando valor do usuário e utilizando ele dentro dos inputs
 function pegarValor(){
+    document.getElementById('proposta').focus()
     var valor = document.getElementById('proposta').value
     var propostaUsuario = valor.toLowerCase().trim()
     propostaUsuario = removerAcentos(propostaUsuario)
@@ -371,6 +372,8 @@ function pegarValor(){
                 case 6: 
                 document.getElementById('forca').src = 'forca6.png'
 
+                document.getElementById('proposta').blur()
+
                 document.getElementById('cabecalho').innerText = 'Que pena!'
                 document.getElementById('texto').innerText = 'Você errou a palavra!'
                 document.getElementById('palavra').innerText = "Palavra correta: " + palavra
@@ -405,6 +408,8 @@ function pegarValor(){
 
     //bloco de vitória
     if(teste_vitoria.length == palavra.length && teste_vitoria.every(vitoria) ){
+
+        document.getElementById('proposta').blur()
        
 
         document.getElementById('cabecalho').innerText = 'Parabéns!'
