@@ -98,7 +98,20 @@ var conjunto_palavras = Array( "abacaxi", "abelha", "abelhinha", "abobora", "abr
     "tira dúvidas", "troca troca", "vai vem", "volta redonda", "água benta", "arco íris", "bicho papão", "bem me quer", 
     "café da manhã", "cor de rosa", "copo de leite", "dupla face", "gira gira", "joão de barro", "mato grosso", 
     "olho de sogra", "pão de ló", "pão duro", "pé de meia", "pé de serra","porta voz", "quebra cabeça", "quebra galho", 
-    "roda gigante", "salva vidas", "tira gosto", "toca fita", "tomara que caia", "troca tintas", "vice presidente", "xodózinho")
+    "roda gigante", "salva vidas", "tira gosto", "toca fita", "tomara que caia", "troca tintas", "vice presidente", "xodózinho", 
+    "paralelepípedo","interdimensional", "antiepiléptico", "hipercolesterolemia","dicroceliose", "formaldeídico",
+    "microssensores","improvisadamente", "invulnerabilidade", "invulneravelmente", "manipulativamente", "manipulativamente",
+    "multidimensional", "pluridimensional", "polidimensional", "polissílabos","procrastinador", "termodinâmico", "transdimensionais", "trissilábicos",
+    "desigualdade", "desorientado", "desorganizado","abissal", "catacumba", "clepsidra", "deglutir", "empíreo", "flâmula", "gnóstico", "hemeroteca", "inócuo", "jacinto",
+    "labirinto", "manufatura", "necromancia", "onomatopeia", "palimpsesto", "quimera", "requisição", "sagacidade", "taciturno", "umbilical",
+    "vassalagem", "xilofone", "zeugma", "conjectura", "despótico", "efêmero", "filantropia", "gargalhada", "hipérbole", "ignóbil",
+    "justaposição", "lacrimogêneo", "melancolia", "neologismo", "oxímoro", "paradoxo", "quociente", "retórica", "semântica", "tribulação",
+    "utopia", "verborragia", "wizened", "xenofobia", "zeugma", "acrônimo", "burocracia", "cosmogonia", "dilema", "enigmático",
+    "fortuito", "gentrificação", "hermenêutica", "iconoclasta", "jurisprudência", "kaleidoscópio", "lexicógrafo", "metamorfose", "numismática", "onipotente",
+    "pseudônimo", "quintessência", "recalcitrante", "sofisma", "teocracia", "unicórnio", "vaticínio", "whodunit", "xerocópia", "zootecnia",
+    "antropocentrismo", "baliza", "cacofonia", "dissonância", "estupefato", "florídeo", "geopolítica", "heráldica", "inefável", "justaposto",
+    "lacustre", "mnemônico", "narcisista", "onomatopeico", "prognóstico", "quixotesco", "remissão", "sobressalto", "transeunte", "unilateral", "lodo"
+)
 
 
 var conjunto_palavras_sem_acento = Array()
@@ -373,6 +386,7 @@ function pegarValor(){
             
            
         }
+
     }
         
         
@@ -401,6 +415,9 @@ function pegarValor(){
         document.getElementById('proposta').style.pointerEvents = 'none'
         document.getElementById('botao').style.pointerEvents = 'none'
     }
+
+
+    document.getElementById('proposta').value = ''
     
 
 }
