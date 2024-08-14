@@ -350,27 +350,27 @@ function pegarValor(){
 
             switch (erros){
                 case 1: 
-                document.getElementById('forca').src = 'forca1.png'
+                document.getElementById('forca').src = 'imagens/forca1.png'
                 break;
 
                 case 2: 
-                document.getElementById('forca').src = 'forca2.png'
+                document.getElementById('forca').src = 'imagens/forca2.png'
                 break;
 
                 case 3: 
-                document.getElementById('forca').src = 'forca3.png'
+                document.getElementById('forca').src = 'imagens/forca3.png'
                 break;
 
                 case 4: 
-                document.getElementById('forca').src = 'forca4.png'
+                document.getElementById('forca').src = 'imagens/forca4.png'
                 break;
 
                 case 5: 
-                document.getElementById('forca').src = 'forca5.png'
+                document.getElementById('forca').src = 'imagens/forca5.png'
                 break;
 
                 case 6: 
-                document.getElementById('forca').src = 'forca6.png'
+                document.getElementById('forca').src = 'imagens/forca6.png'
 
                 document.getElementById('proposta').blur()
 
